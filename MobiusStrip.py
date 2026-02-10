@@ -60,6 +60,7 @@ surf = ax.plot_surface(
 ax.set_box_aspect([1, 1, 0.5])
 ax.set_axis_off()
 ax.view_init(elev=50, azim=10)
+ax.set_title('Möbius strip')
 
 plt.show()
 
